@@ -28,9 +28,9 @@ class ArtistsController < ApplicationController
 	end
 end
 
-# 	private
-#
-# 	def artist_params
-# 		params.require(:artist).permit(:first_name, :last_name)
-# 	end
-# end
+	private
+
+	def artist_params
+		params.require(:artist).permit(:name, :bio)
+	end
+end
