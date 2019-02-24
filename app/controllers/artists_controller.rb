@@ -26,7 +26,7 @@ class ArtistsController < ApplicationController
 	  @artist.update(artist_params)
 	  redirect_to artist_path(@artist)
 	end
-end 
+end
 
 # 	private
 #
